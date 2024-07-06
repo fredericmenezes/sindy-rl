@@ -1,0 +1,10 @@
+diff --git a/tutorial/dynamics.ipynb b/tutorial/dynamics.ipynb
+index 23b9280..74074f1 100644
+--- a/tutorial/dynamics.ipynb
++++ b/tutorial/dynamics.ipynb
+@@ -1,3 +1,3 @@
+ version https://git-lfs.github.com/spec/v1
+-oid sha256:10c43cf3ecb8fd4f191a9de845df251285733792c198667f01c7821279943d7f
+-size 690213
++oid sha256:66f24fe16b312429ce35043e834c8acb1199aabd0e8a6fa59f87baee7c98686d
++size 38470637

@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-07-06T21:29:52.644256",
+    "startedAt": "2024-07-06T21:29:51.917803",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "c:\\Users\\UFMA\\Documents\\GitHub\\sindy-rl\\tutorial\\train.py",
+    "codePathLocal": "tutorial\\train.py",
+    "codePath": "tutorial\\train.py",
+    "git": {
+        "remote": "https://github.com/nzolman/sindy-rl.git",
+        "commit": "34ef0d735f5ed8d30143f9c2c19067d361e239cf"
+    },
+    "email": "fredericmferreira@gmail.com",
+    "root": "C:/Users/UFMA/Documents/GitHub/sindy-rl",
+    "host": "DESKTOP-PJM9OV3",
+    "username": "UFMA",
+    "executable": "c:\\Users\\UFMA\\anaconda3\\envs\\sindy-rl\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2000.0,
+        "min": 0.0,
+        "max": 2000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 2000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 235.67480087280273,
+            "used": 192.99129104614258
+        }
+    },
+    "memory": {
+        "total": 15.696025848388672
+    }
+}

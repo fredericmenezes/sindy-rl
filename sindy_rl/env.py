@@ -74,7 +74,7 @@ def rollout_env(env, policy, n_steps, n_steps_reset=np.inf, seed=None, verbose =
         if done or len(obs_list) > n_steps_reset:
             obs_list.pop(-1)
             trajs_obs.append(np.array(obs_list))
-            trajs_acts.append(np.array(act_list))
+            trajs_acts.append(np.array(act_list).reshape(-1, 1))
             trajs_rews.append(np.array(rew_list))
 
             obs_list = [safe_reset(env.reset())]

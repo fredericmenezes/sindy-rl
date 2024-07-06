@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.9.19",
+    "heartbeatAt": "2024-07-06T18:33:08.421533",
+    "startedAt": "2024-07-06T18:33:07.639142",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "dynamics.ipynb",
+    "codePathLocal": "dynamics.ipynb",
+    "root": "C:/Users/UFMA/Documents/GitHub/sindy-rl",
+    "git": {
+        "remote": "https://github.com/nzolman/sindy-rl.git",
+        "commit": "34ef0d735f5ed8d30143f9c2c19067d361e239cf"
+    },
+    "email": "fredericmferreira@gmail.com",
+    "host": "DESKTOP-PJM9OV3",
+    "username": "UFMA",
+    "executable": "C:\\Users\\UFMA\\anaconda3\\envs\\sindy-rl\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2000.0,
+        "min": 0.0,
+        "max": 2000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 2000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 235.67480087280273,
+            "used": 189.71809768676758
+        }
+    },
+    "memory": {
+        "total": 15.696025848388672
+    }
+}
