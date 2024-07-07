@@ -9,6 +9,8 @@ from gymnasium.envs.mujoco.swimmer_v4 import SwimmerEnv
 from ray.rllib.env.wrappers.dm_control_wrapper import DMCEnv
 
 from sindy_rl.swimmer import SwimmerWithBounds, SwimmerWithBoundsClassic
+# from tutorial.Ambiente_SOMN.Somn import Somn
+from Ambiente_SOMN.Somn import Somn
 from sindy_rl.reward_fns import cart_reward
 
 # Don't require that user needs hydrogym installed

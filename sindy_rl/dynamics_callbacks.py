@@ -38,3 +38,6 @@ def project_pend(z):
     u = np.array([cos_th, sin_th])
     new_cos, new_sin = u/np.linalg.norm(u)
     return np.array([new_cos, new_sin, dth])
+
+def project_somn(z):
+    

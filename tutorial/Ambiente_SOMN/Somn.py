@@ -419,9 +419,9 @@ class Somn(Env):
     
     def plan(self, t: int, action):
         
-        wandb.log({
-            'Tamanho da fila de prioridade' : len(Somn.priorq[Somn.objetivo]),
-        })
+        # wandb.log({
+        #     'Tamanho da fila de prioridade' : len(Somn.priorq[Somn.objetivo]),
+        # })
 
         if len(Somn.priorq[Somn.objetivo]) > 0:
             # objetivo {0: price, 1: variabilidade, 2: sustentabilidade}
@@ -741,7 +741,7 @@ class Somn(Env):
         # ) = self.eval_final_states()  # aqui vai a função que calcula a recompensa
 
         # logs pontuais Yard e Penalidade
-        self.wandb_log_func()
+        # self.wandb_log_func()
 
         # condição de parada
         done = False
