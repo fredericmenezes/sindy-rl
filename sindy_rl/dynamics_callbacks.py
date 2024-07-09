@@ -40,4 +40,4 @@ def project_pend(z):
     return np.array([new_cos, new_sin, dth])
 
 def project_somn(z):
-    
+    cart_pos, cos_th, sin_th, dx, dth = z

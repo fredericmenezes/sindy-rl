@@ -1,0 +1,11 @@
+diff --git a/sindy_rl/dynamics_callbacks.py b/sindy_rl/dynamics_callbacks.py
+index 39e2333..9bb5a6b 100644
+--- a/sindy_rl/dynamics_callbacks.py
++++ b/sindy_rl/dynamics_callbacks.py
+@@ -40,4 +40,4 @@ def project_pend(z):
+     return np.array([new_cos, new_sin, dth])
+ 
+ def project_somn(z):
+-    
++    cart_pos, cos_th, sin_th, dx, dth = z
+\ No newline at end of file
